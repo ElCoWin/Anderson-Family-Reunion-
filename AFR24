@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anderson Family Reunion</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #003594; /* Dallas Cowboys blue */
+            color: #ffffff; /* White text */
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        header {
+            background-color: #041E42; /* Darker blue */
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #ffffff;
+        }
+        .container {
+            padding: 20px;
+        }
+        .bold {
+            font-weight: bold;
+        }
+        .event-info, .food-info, .entertainment-info, .raffle-info, .winners-info {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #1D428A; /* Lighter blue */
+            border-radius: 10px;
+        }
+        .event-info img, .raffle-info img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .footer {
+            background-color: #041E42; /* Darker blue */
+            padding: 10px;
+            color: #ffffff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to the Anderson Family Reunion</h1>
+</header>
+
+<div class="container">
+    <section class="event-info">
+        <h2 class="bold">Event Details</h2>
+        <p class="bold">Date: October 19th</p>
+        <p class="bold">Start Time: 11 am</p>
+        <p class="bold">Food Serving: 1-3pm</p>
+        <p class="bold">Location: Smithville VFW</p>
+        <p>Note that we will have fun for the kids and entire family, plus games of dominoes and spades for a trophy.</p>
+        <img src="file-gxEuiO2TqKxYH6lPWhtwb3dj" alt="Family Gathering">
+    </section>
+
+    <section class="food-info">
+        <h2 class="bold">Delicious Southern Food</h2>
+        <p>Reunion tickets are $50 per family and $30 for individuals.</p>
+        <p>Food will be brisket, sausage, and chicken with delicious greens, chili beans, salads, and all types of handmade desserts from family members.</p>
+    </section>
+
+    <section class="entertainment-info">
+        <h2 class="bold">Entertainment</h2>
+        <p>We will have DJ Big Baby on the spin tables again for dancing and overall enjoyment.</p>
+        <p>See you all there!</p>
+    </section>
+
+    <section class="raffle-info">
+        <h2 class="bold">Raffle Prizes</h2>
+        <p>This year we are raffling off a new 50 inch Hisense Smart TV and a 12x12 metal Pavilion.</p>
+        <img src="file-iEYEO7vF2TXbSwZZ57Jcwuj9" alt="Raffle Prizes">
+    </section>
+
+    <section class="winners-info">
+        <h2 class="bold">Previous Year's Event Winners</h2>
+        <p>We will fill these in at a later date.</p>
+    </section>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2024 Anderson Family Reunion. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
