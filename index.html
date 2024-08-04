@@ -26,14 +26,14 @@
         .bold {
             font-weight: bold;
         }
-        .event-info, .food-info, .entertainment-info, .raffle-info, .winners-info {
+        .event-info, .food-info, .entertainment-info, .raffle-info, .winners-info, .elders-info {
             margin: 20px 0;
             padding: 20px;
             background-color: #1D428A; /* Lighter blue */
             border-radius: 10px;
         }
-        .event-info img, .raffle-info img {
-            max-width: 100%;
+        .event-info img, .raffle-info img, .elders-info img, .winners-info img {
+            max-width: 80%; /* Make the images smaller */
             height: auto;
             border-radius: 10px;
         }
@@ -44,6 +44,21 @@
             position: fixed;
             bottom: 0;
             width: 100%;
+        }
+        .facebook-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #C0C0C0; /* Silver color */
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 20px; /* Add margin to make sure the button is visible */
+        }
+
+        .facebook-button:hover {
+            background-color: #D3D3D3; /* Light gray color on hover */
         }
     </style>
 </head>
@@ -102,27 +117,9 @@
     <section class="Get Connected">
         <h2 class="bold">Get Connected</h2>
         <p>To stay in the loop, see photos and find payment information join the family Facebook group by clicking the link below.</p>
-        <style>
-  .facebook-button {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: white;
-    background-color: #C0C0C0; /* Silver color */
-    text-align: center;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-
-  .facebook-button:hover {
-    background-color: #D3D3D3; /* Light gray color on hover */
-  }
-</style>
-
-<a href="https://www.facebook.com/groups/203151763045288/?ref=share&mibextid=NSMWBT" target="_blank" class="facebook-button">Join our Facebook Group</a>
+        <a href="https://www.facebook.com/groups/203151763045288/?ref=share&mibextid=NSMWBT" target="_blank" class="facebook-button">Join our Facebook Group</a>
     </section>
 
-    
 </div>
 
 <footer class="footer">
